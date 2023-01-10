@@ -1,0 +1,81 @@
+#buttonsWrapper{    
+    min-width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 14fr 1fr;
+
+}
+
+#buttons{
+    grid-column: 2/3;
+
+    min-width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+#backBtn{
+    border-style:solid;
+
+    color: #ECE2D0;
+    background-color: #1b1b1b;
+    
+    font-family: "buenard";
+    /* font-family: "DM sans"; */
+    font-weight: 600;
+    font-size: 23px;
+
+    /* padding: 0.5rem 2rem 0.5rem 2rem; */
+    height: 42px;
+    width: 100px;
+
+    border-radius: 10px;
+
+}
+#backBtn:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: #ECE2D0;
+    border-style: none;
+
+    cursor: pointer;
+
+    color: #000000;
+}
+#backBtn:active{
+    transition: none;
+    background-color: #a8987d;
+    box-shadow: #000000 inset 1px 1px 5px;
+}
+
+#nextBtn{
+    border-style: none;
+
+    background-color: #ECE2D0;
+    color: black;
+
+    font-family: "buenard";
+    /* font-family: "DM sans"; */
+    font-weight: 600;
+
+    font-size: 23px;
+    
+    /* padding: 0.5rem 2rem 0.5rem 2rem; */
+    height: 42px;
+    width: 100px;
+
+    border-radius: 10px;
+}
+#nextBtn:hover{
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: #cec0a7;
+}
+#nextBtn:active{
+    transition: none;
+    background-color: #a8987d;
+    box-shadow: #000000 inset 1px 1px 5px;
+}
+
+.btnText{
+    margin-top: -3px;
+}

@@ -1,0 +1,30 @@
+#boardWrapper{
+    
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 14fr 1fr;
+}
+#board{
+    transition: all 0.2s ease-in-out;
+
+    margin-top: 1rem;
+    
+    grid-column: 2/3;
+    background-color: #3f3f3f;
+
+    height: 200px;
+
+    font-family: "DM Serif Display", serif;
+    font-style: italic;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    color: #aaaaaa;
+}
+#board:hover{
+    background-color: #2c2c2c;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+.placeCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: "DM sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+
+    background-color: #5d5255;
+    border-radius: 10px;
+    color: #ffffff;
+
+    min-height: 5vh;
+
+    margin: 1rem 1rem 0rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.placeCard:hover{
+    background-color: #524a4c;
+}
+
+.placeCard:hover .placeCardDeleteBtn{
+    display: inline;
+}
+.placeCard:hover .placeDays{
+    margin-right: 2rem;
+}
+
+.placeName{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.placeDays{
+    margin-left: auto;
+    margin-right: 6rem;
+
+    font-style: italic;
+}
+.placeCardDeleteBtn{
+    border-radius: 8px;
+    border-style: none;
+    background-color: #886464;
+    box-shadow: 1px 1px 5px #323232;
+
+    font-size: 12px;
+
+    color: #ffffff;
+
+    padding: 0.3rem 0.6rem 0.3rem 0.6rem ;
+
+    display: none;
+}
+.placeCardDeleteBtn:hover{
+    background-color: #6f5252;
+}
+.placeCardDeleteBtn:active{
+    background-color: #5c4444;
+    box-shadow: inset 1px 1px 5px #000000;
+
+}

@@ -1,0 +1,35 @@
+.sectionButton{
+    border-style: none;;
+    border-radius: 8px;
+
+    font-family: "DM sans";
+    font-weight: 500;
+    font-size: 16px;
+
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: .5rem 0rem .5rem .5rem;
+
+    background-color: #D5B9B2;
+}
+.sectionButton:hover{
+    background-color: #deb5ab;
+}
+.sectionButton:active{
+    transition: none;
+    background-color: #dfa79a;
+    box-shadow: #000000 inset 1px 1px 5px;
+}
+
+.sectionButton2{
+    border-style: none;;
+    border-radius: 8px;
+
+    font-family: "DM sans";
+    font-weight: 500;
+    font-size: 16px;
+
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: .5rem 0rem .5rem .5rem;
+
+    background-color: #FF899C;
+}

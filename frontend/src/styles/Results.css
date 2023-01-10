@@ -1,0 +1,62 @@
+.groupWrapper{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+.predictionsWrapper{
+    grid-column: 1/2;
+    background-color: #3f3f3f;
+
+    border-radius: 12px;
+    color: #aaaaaa;
+
+    overflow-y: auto;
+    height: 516px;
+    max-width: inherit;
+
+}
+.predictionCardsWrapper{
+    display: flex;
+    flex-direction: column;
+    flex-grow: auto; 
+
+    font-family: "Buenard";
+    font-size: 14px;
+
+}
+.addedPlacesWrapper{
+    grid-column: 2/3;
+    background-color: #3f3f3f;
+    overflow-y: auto;   
+    border-radius: 12px;
+    color: #aaaaaa;
+
+    height: 516px;
+}
+.sections{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    flex-grow: auto; 
+    max-width: calc((100vw/16 * 7) - 0.6rem);
+}
+.sections::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+}
+  
+.sections::-webkit-scrollbar-track {
+    border-radius: 10px;   
+}
+.sections::-webkit-scrollbar-thumb {
+    background: #73534b;
+    border-radius: 5px;
+}
+
+#map{
+    position: absolute;
+    height: 50vh;
+    width: 50vw;
+    display: none;
+}
